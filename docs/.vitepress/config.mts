@@ -220,6 +220,7 @@ function localizeSidebar(prefix: string, english: boolean): Record<string, Sideb
 }
 
 export default defineConfig({
+  base: '/dev-guides/',
   locales: {
     root: {
       label: 'English',
